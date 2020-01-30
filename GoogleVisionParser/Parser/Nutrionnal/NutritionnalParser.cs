@@ -39,29 +39,75 @@ namespace GoogleVisionParser.Parser.Nutrionnal
             catch (Exception _Ex)
             {
                 Console.WriteLine("Invalid input file.");
-                File.AppendAllText(Constants.LOG_FILE, $"Input file was invalid. Ex: [{_Ex.Message}], [{_Ex.StackTrace}], [{_Ex.InnerException?.Message}], [{_Ex.InnerException?.StackTrace}]");
+                File.AppendAllText(Constants.ERROR_FILE, $"Input file was invalid. Ex: [{_Ex.Message}], [{_Ex.StackTrace}], [{_Ex.InnerException?.Message}], [{_Ex.InnerException?.StackTrace}]");
                 return;
             }
 
-            if (_DeserializedModel.responses.Count > 0)
+            if (_DeserializedModel.responses.Count > 1)
             {
                 Console.WriteLine("Invalid input file. Multiple responses found.");
-                File.AppendAllText(Constants.LOG_FILE, $"Input file was invalid. Multiple responses found.");
+                File.AppendAllText(Constants.ERROR_FILE, $"Input file was invalid. Multiple responses found.");
                 return;
             }
 
             // Ordering
             NutrionnalPanelModel.Response _WorkItem = _DeserializedModel.responses[0];
 
-            List<TextAnnotation> _OrderedByY = new List<TextAnnotation>();
+            // Order by X
+            _WorkItem.textAnnotations = _WorkItem.textAnnotations.OrderBy(o => o.boundingPoly.vertices.FirstOrDefault()?.x).ToList();
 
-            var a = _WorkItem.textAnnotations.GroupBy(o =>
+            //IEnumerable<IGrouping<int?, TextAnnotation>> a = _WorkItem.textAnnotations.GroupBy(o =>
+            //{
+            //    return o.boundingPoly.vertices.FirstOrDefault()?.y / Constants.NOISE;
+            //});
+
+            List<List<TextAnnotation>> b = new List<List<TextAnnotation>>();
+
+            foreach (var o in _WorkItem.textAnnotations.Skip(ConfigManager.GetConfig().fSKIP_DATA_ELEMENT_NB))
             {
-                //return o.boundingPoly.vertices.FirstOrDefault()?.y    
-            });
+                bool _Found = false;
+                foreach (List<TextAnnotation> item in b)
+                {
+                    foreach (TextAnnotation item2 in item)
+                    {
+                        if (o.boundingPoly.vertices.FirstOrDefault()?.y > item2.boundingPoly.vertices.FirstOrDefault()?.y - ConfigManager.GetConfig().fNOISE &&
+                            o.boundingPoly.vertices.FirstOrDefault()?.y < item2.boundingPoly.vertices.FirstOrDefault()?.y + ConfigManager.GetConfig().fNOISE)
+                        {
+                            item.Add(o);
+                            _Found = true;
+                            break;
+                        }
 
-            _OrderedByY = _WorkItem.textAnnotations.OrderBy(o => o.boundingPoly.vertices.FirstOrDefault()?.y).ToList();
+                        if (_Found)
+                            break;
+                    }
 
+                    if (_Found)
+                        break;
+                }
+
+                if (_Found)
+                    continue;
+
+                b.Add(new List<TextAnnotation>() { o });
+                //return o.boundingPoly.vertices.FirstOrDefault()?.y / Constants.NOISE;
+            }
+
+            // Order
+
+            b = b.OrderBy(o=>o[0].boundingPoly.vertices.FirstOrDefault()?.y).ToList();
+
+            List<string> _String = new List<string>();
+            foreach (var item in b)
+            {
+                string _Content = "";
+                foreach (var item2 in item)
+                {
+                    _Content += $" {item2.description} ({string.Join("/", item2.boundingPoly.vertices.Select(s => s.x))}---{string.Join("/", item2.boundingPoly.vertices.Select(s => s.y))})";
+                }
+
+                _String.Add($"{_Content}");
+            }
         }
     }
 }

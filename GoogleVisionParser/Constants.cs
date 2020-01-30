@@ -7,6 +7,7 @@ namespace GoogleVisionParser
 {
     public class Constants
     {
-        public const string LOG_FILE = "error.log";
+        public const string ERROR_FILE = "error.log";
+        public const string CONFIG_FILE = "config.log";
     }
 }

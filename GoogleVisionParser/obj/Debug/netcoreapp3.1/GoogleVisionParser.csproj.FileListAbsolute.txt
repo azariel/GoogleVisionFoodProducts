@@ -1,5 +1,4 @@
 C:\Users\Azariel\Documents\Visual Studio 2019\Projects\GoogleVisionParser\GoogleVisionFoodProducts\GoogleVisionParser\bin\Debug\netcoreapp3.1\GoogleVisionParser.exe
-C:\Users\Azariel\Documents\Visual Studio 2019\Projects\GoogleVisionParser\GoogleVisionFoodProducts\GoogleVisionParser\obj\Debug\netcoreapp3.1\GoogleVisionParser.csprojAssemblyReference.cache
 C:\Users\Azariel\Documents\Visual Studio 2019\Projects\GoogleVisionParser\GoogleVisionFoodProducts\GoogleVisionParser\obj\Debug\netcoreapp3.1\GoogleVisionParser.AssemblyInfoInputs.cache
 C:\Users\Azariel\Documents\Visual Studio 2019\Projects\GoogleVisionParser\GoogleVisionFoodProducts\GoogleVisionParser\obj\Debug\netcoreapp3.1\GoogleVisionParser.AssemblyInfo.cs
 C:\Users\Azariel\Documents\Visual Studio 2019\Projects\GoogleVisionParser\GoogleVisionFoodProducts\GoogleVisionParser\bin\Debug\netcoreapp3.1\GoogleVisionParser.deps.json
