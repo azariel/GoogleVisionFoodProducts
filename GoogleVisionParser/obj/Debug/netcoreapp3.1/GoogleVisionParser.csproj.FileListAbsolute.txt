@@ -1,0 +1,13 @@
+C:\Users\Azariel\Documents\Visual Studio 2019\Projects\GoogleVisionParser\GoogleVisionFoodProducts\GoogleVisionParser\bin\Debug\netcoreapp3.1\GoogleVisionParser.exe
+C:\Users\Azariel\Documents\Visual Studio 2019\Projects\GoogleVisionParser\GoogleVisionFoodProducts\GoogleVisionParser\obj\Debug\netcoreapp3.1\GoogleVisionParser.csprojAssemblyReference.cache
+C:\Users\Azariel\Documents\Visual Studio 2019\Projects\GoogleVisionParser\GoogleVisionFoodProducts\GoogleVisionParser\obj\Debug\netcoreapp3.1\GoogleVisionParser.AssemblyInfoInputs.cache
+C:\Users\Azariel\Documents\Visual Studio 2019\Projects\GoogleVisionParser\GoogleVisionFoodProducts\GoogleVisionParser\obj\Debug\netcoreapp3.1\GoogleVisionParser.AssemblyInfo.cs
+C:\Users\Azariel\Documents\Visual Studio 2019\Projects\GoogleVisionParser\GoogleVisionFoodProducts\GoogleVisionParser\bin\Debug\netcoreapp3.1\GoogleVisionParser.deps.json
+C:\Users\Azariel\Documents\Visual Studio 2019\Projects\GoogleVisionParser\GoogleVisionFoodProducts\GoogleVisionParser\bin\Debug\netcoreapp3.1\GoogleVisionParser.runtimeconfig.json
+C:\Users\Azariel\Documents\Visual Studio 2019\Projects\GoogleVisionParser\GoogleVisionFoodProducts\GoogleVisionParser\bin\Debug\netcoreapp3.1\GoogleVisionParser.runtimeconfig.dev.json
+C:\Users\Azariel\Documents\Visual Studio 2019\Projects\GoogleVisionParser\GoogleVisionFoodProducts\GoogleVisionParser\bin\Debug\netcoreapp3.1\GoogleVisionParser.dll
+C:\Users\Azariel\Documents\Visual Studio 2019\Projects\GoogleVisionParser\GoogleVisionFoodProducts\GoogleVisionParser\bin\Debug\netcoreapp3.1\GoogleVisionParser.pdb
+C:\Users\Azariel\Documents\Visual Studio 2019\Projects\GoogleVisionParser\GoogleVisionFoodProducts\GoogleVisionParser\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Azariel\Documents\Visual Studio 2019\Projects\GoogleVisionParser\GoogleVisionFoodProducts\GoogleVisionParser\obj\Debug\netcoreapp3.1\GoogleVisionParser.csproj.CopyComplete
+C:\Users\Azariel\Documents\Visual Studio 2019\Projects\GoogleVisionParser\GoogleVisionFoodProducts\GoogleVisionParser\obj\Debug\netcoreapp3.1\GoogleVisionParser.dll
+C:\Users\Azariel\Documents\Visual Studio 2019\Projects\GoogleVisionParser\GoogleVisionFoodProducts\GoogleVisionParser\obj\Debug\netcoreapp3.1\GoogleVisionParser.pdb

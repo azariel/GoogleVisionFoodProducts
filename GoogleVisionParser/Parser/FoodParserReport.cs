@@ -6,5 +6,6 @@ namespace GoogleVisionParser.Parser
 {
     public class FoodParserReport
     {
+
     }
 }
