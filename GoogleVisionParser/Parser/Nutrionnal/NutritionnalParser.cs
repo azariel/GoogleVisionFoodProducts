@@ -222,7 +222,7 @@ namespace GoogleVisionParser.Parser.Nutrionnal
                 if(_BottomX == null || _BottomX < item.x)
                     _BottomX = item.x;
 
-                if(_BottomY == null || _BottomX < item.y)
+                if(_BottomY == null || _BottomY < item.y)
                     _BottomY = item.y;
 
             }
