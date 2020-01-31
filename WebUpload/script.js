@@ -1,18 +1,18 @@
 // ************************ Drag and drop ***************** //
-let dropArea = document.getElementById("drop-area")
+let dropArea = document.getElementById('drop-area');
 
 // Prevent default drag behaviors
-;['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
   dropArea.addEventListener(eventName, preventDefaults, false)   
   document.body.addEventListener(eventName, preventDefaults, false)
-})
+});
 
 // Highlight drop area when item is dragged over it
-;['dragenter', 'dragover'].forEach(eventName => {
+['dragenter', 'dragover'].forEach(eventName => {
   dropArea.addEventListener(eventName, highlight, false)
-})
+});
 
-;['dragleave', 'drop'].forEach(eventName => {
+['dragleave', 'drop'].forEach(eventName => {
   dropArea.addEventListener(eventName, unhighlight, false)
 })
 
@@ -76,7 +76,7 @@ function previewFile(file) {
 }
 
 function uploadFile(file, i) {
-  var url = 'https://api.cloudinary.com/v1_1/joezimim007/image/upload'
+  var url = 'C:/Temp/'
   var xhr = new XMLHttpRequest()
   var formData = new FormData()
   xhr.open('POST', url, true)
