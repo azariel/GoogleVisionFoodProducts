@@ -27,3 +27,24 @@ td {
 canvas {
     position: fixed;
 }
+
+body {
+    background-image: url(sky.jpg);
+}
+
+#myTable {
+    background-color:navy;
+    color: white;
+    opacity: 70%;
+}
+
+#myTable2 {
+    background-color : navy;
+    color: white;
+    opacity: 70%;
+}
+
+h1 {
+    text-align: center;
+    color:white;
+}
