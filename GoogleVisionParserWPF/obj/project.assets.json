@@ -10,6 +10,19 @@
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
+      },
+      "GoogleVisionParser/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "bin/placeholder/GoogleVisionParser.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GoogleVisionParser.dll": {}
+        }
       }
     }
   },
@@ -44,11 +57,16 @@
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
+    },
+    "GoogleVisionParser/1.0.0": {
+      "type": "project",
+      "path": "../GoogleVisionParser/GoogleVisionParser.csproj",
+      "msbuildProject": "../GoogleVisionParser/GoogleVisionParser.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Newtonsoft.Json >= 12.0.3"
+      "GoogleVisionParser >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -58,11 +76,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Azariel\\Downloads\\GoogleVisionFoodProducts\\GoogleVisionFoodProducts\\GoogleVisionParser\\GoogleVisionParser.csproj",
-      "projectName": "GoogleVisionParser",
-      "projectPath": "C:\\Users\\Azariel\\Downloads\\GoogleVisionFoodProducts\\GoogleVisionFoodProducts\\GoogleVisionParser\\GoogleVisionParser.csproj",
+      "projectUniqueName": "C:\\Users\\Azariel\\Downloads\\GoogleVisionFoodProducts\\GoogleVisionFoodProducts\\GoogleVisionParserWPF\\GoogleVisionParserWPF.csproj",
+      "projectName": "GoogleVisionParserWPF",
+      "projectPath": "C:\\Users\\Azariel\\Downloads\\GoogleVisionFoodProducts\\GoogleVisionFoodProducts\\GoogleVisionParserWPF\\GoogleVisionParserWPF.csproj",
       "packagesPath": "C:\\Users\\Azariel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Azariel\\Downloads\\GoogleVisionFoodProducts\\GoogleVisionFoodProducts\\GoogleVisionParser\\obj\\",
+      "outputPath": "C:\\Users\\Azariel\\Downloads\\GoogleVisionFoodProducts\\GoogleVisionFoodProducts\\GoogleVisionParserWPF\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -80,7 +98,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Azariel\\Downloads\\GoogleVisionFoodProducts\\GoogleVisionFoodProducts\\GoogleVisionParser\\GoogleVisionParser.csproj": {
+              "projectPath": "C:\\Users\\Azariel\\Downloads\\GoogleVisionFoodProducts\\GoogleVisionFoodProducts\\GoogleVisionParser\\GoogleVisionParser.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -91,12 +113,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "dependencies": {
-          "Newtonsoft.Json": {
-            "target": "Package",
-            "version": "[12.0.3, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",
@@ -110,6 +126,9 @@
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"

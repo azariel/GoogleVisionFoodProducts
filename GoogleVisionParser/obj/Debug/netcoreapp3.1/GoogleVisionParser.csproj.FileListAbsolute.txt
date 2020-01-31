@@ -10,3 +10,15 @@ C:\Users\Azariel\Documents\Visual Studio 2019\Projects\GoogleVisionParser\Google
 C:\Users\Azariel\Documents\Visual Studio 2019\Projects\GoogleVisionParser\GoogleVisionFoodProducts\GoogleVisionParser\obj\Debug\netcoreapp3.1\GoogleVisionParser.csproj.CopyComplete
 C:\Users\Azariel\Documents\Visual Studio 2019\Projects\GoogleVisionParser\GoogleVisionFoodProducts\GoogleVisionParser\obj\Debug\netcoreapp3.1\GoogleVisionParser.dll
 C:\Users\Azariel\Documents\Visual Studio 2019\Projects\GoogleVisionParser\GoogleVisionFoodProducts\GoogleVisionParser\obj\Debug\netcoreapp3.1\GoogleVisionParser.pdb
+C:\Programming\PIREL\GoogleVisionFoodProducts\GoogleVisionParser\bin\Debug\netcoreapp3.1\GoogleVisionParser.exe
+C:\Programming\PIREL\GoogleVisionFoodProducts\GoogleVisionParser\bin\Debug\netcoreapp3.1\GoogleVisionParser.deps.json
+C:\Programming\PIREL\GoogleVisionFoodProducts\GoogleVisionParser\bin\Debug\netcoreapp3.1\GoogleVisionParser.runtimeconfig.json
+C:\Programming\PIREL\GoogleVisionFoodProducts\GoogleVisionParser\bin\Debug\netcoreapp3.1\GoogleVisionParser.runtimeconfig.dev.json
+C:\Programming\PIREL\GoogleVisionFoodProducts\GoogleVisionParser\bin\Debug\netcoreapp3.1\GoogleVisionParser.dll
+C:\Programming\PIREL\GoogleVisionFoodProducts\GoogleVisionParser\bin\Debug\netcoreapp3.1\GoogleVisionParser.pdb
+C:\Programming\PIREL\GoogleVisionFoodProducts\GoogleVisionParser\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Programming\PIREL\GoogleVisionFoodProducts\GoogleVisionParser\obj\Debug\netcoreapp3.1\GoogleVisionParser.AssemblyInfoInputs.cache
+C:\Programming\PIREL\GoogleVisionFoodProducts\GoogleVisionParser\obj\Debug\netcoreapp3.1\GoogleVisionParser.AssemblyInfo.cs
+C:\Programming\PIREL\GoogleVisionFoodProducts\GoogleVisionParser\obj\Debug\netcoreapp3.1\GoogleVisionParser.csproj.CopyComplete
+C:\Programming\PIREL\GoogleVisionFoodProducts\GoogleVisionParser\obj\Debug\netcoreapp3.1\GoogleVisionParser.dll
+C:\Programming\PIREL\GoogleVisionFoodProducts\GoogleVisionParser\obj\Debug\netcoreapp3.1\GoogleVisionParser.pdb
