@@ -1,0 +1,29 @@
+.split {
+    height: 100%;
+    width: 50%;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 25px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+table {
+    border-style: dotted;
+}
+
+td {
+    text-align: center;
+    border-style: groove;
+}
+
+canvas {
+    position: fixed;
+}
