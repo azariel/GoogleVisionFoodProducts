@@ -14,7 +14,7 @@ function LoadImage() {
 }
 
 async function LoadBigJSON() {
-    const response = await fetch('./new 2.json');
+    const response = await fetch('./Data.json');
     const json = await response.json();
     return json.responses[0].textAnnotations;
 }

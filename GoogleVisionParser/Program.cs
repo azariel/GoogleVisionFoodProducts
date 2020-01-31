@@ -10,10 +10,13 @@ namespace GoogleVisionParser
     {
         static void Main(string[] args)
         {
-            string _RawDataFromFile = File.ReadAllText("DATA.txt");
+            string _RawDataFromFile = File.ReadAllText("DATA.json");
             NutritionnalParser _Parser = new NutritionnalParser();
-            _Parser.Parse(_RawDataFromFile, out var _Report);
+            var _Result = _Parser.Parse(_RawDataFromFile, out var _Report);
 
+            File.WriteAllText("Json.json", JsonConvert.SerializeObject(_Result));
+
+            Console.WriteLine("Done.");
             Console.ReadKey();
         }
     }
