@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.Json;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows;
@@ -63,10 +64,14 @@ namespace GoogleVisionParserWPF
             this.listView.View = gridView;
 
             List<NutritionalFoodView> _Unknown = new List<NutritionalFoodView>();
+
             foreach (var _v in _Result)
             {
                 this.listView.Items.Add(new ListViewItem() { Content = _v, Background = GetColorFromNutritionalFoodView(_v) });
             }
+
+
+            File.WriteAllText(@"C:\TEmp\Json.json", JsonSerializer.Serialize(_Result));
         }
     }
 }
