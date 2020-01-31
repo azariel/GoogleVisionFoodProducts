@@ -79,10 +79,23 @@ async function FillTable2(){
             LoadImage();
         });
 
+        let nbFilledUpColumn = 0;
         for (let j = 0; j < headers.length - 1; j++) {
             let cell = tr.insertCell(-1);
             cell.innerHTML = json[i][headers[[j]]];
+            
+            if(json[i][headers[[j]]] != undefined && json[i][headers[[j]]] != null && json[i][headers[[j]]] != "" && json[i][headers[[j]]] != "?"){
+                console.log(json[i][headers[[j]]]);
+                nbFilledUpColumn++;
+            }
         }
+        
+        if(nbFilledUpColumn <= 1)
+            tr.style.backgroundColor = "#CC0000";
+        else if(nbFilledUpColumn < 3)
+            tr.style.backgroundColor = "#AA9900";
+        else
+            tr.style.backgroundColor = "#007700";
     }
 }
 
