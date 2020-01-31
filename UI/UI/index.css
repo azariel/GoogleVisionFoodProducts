@@ -1,27 +1,21 @@
-.split {
-    height: 100%;
-    width: 50%;
-    z-index: 1;
-    top: 0;
-    overflow-x: hidden;
-    padding-top: 25px;
-}
-
-.left {
-    float: left;
-}
-
-.right {
-    float: right;
-}
-
 table {
     border-style: dotted;
 }
 
+.tab1 {
+    position:absolute;
+    left:45%;
+}
+
 td {
-    text-align: center;
-    border-style: groove;
+    border-style:groove;
+    text-align:center;
+
+}
+
+.tab2 {
+    position:absolute;
+    right:0px;
 }
 
 canvas {
@@ -30,21 +24,30 @@ canvas {
 
 body {
     background-image: url(sky.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
 }
 
 #myTable {
-    background-color:navy;
+    background-color:black;
     color: white;
-    opacity: 70%;
+    opacity: 90%;
 }
 
 #myTable2 {
-    background-color : navy;
+    background-color : black;
     color: white;
-    opacity: 70%;
+    opacity: 90%;
 }
 
 h1 {
     text-align: center;
     color:white;
+}
+
+#rickpic {
+    position:fixed;
+    left:45%;
+    z-index:-1;
+    opacity:50%;
 }
