@@ -58,11 +58,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Azariel\\Downloads\\GoogleVisionFoodProducts\\GoogleVisionFoodProducts\\GoogleVisionParser\\GoogleVisionParser.csproj",
+      "projectUniqueName": "C:\\Users\\Azariel\\Documents\\Visual Studio 2019\\Projects\\GoogleVisionParser\\GoogleVisionFoodProducts\\GoogleVisionParser\\GoogleVisionParser.csproj",
       "projectName": "GoogleVisionParser",
-      "projectPath": "C:\\Users\\Azariel\\Downloads\\GoogleVisionFoodProducts\\GoogleVisionFoodProducts\\GoogleVisionParser\\GoogleVisionParser.csproj",
+      "projectPath": "C:\\Users\\Azariel\\Documents\\Visual Studio 2019\\Projects\\GoogleVisionParser\\GoogleVisionFoodProducts\\GoogleVisionParser\\GoogleVisionParser.csproj",
       "packagesPath": "C:\\Users\\Azariel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Azariel\\Downloads\\GoogleVisionFoodProducts\\GoogleVisionFoodProducts\\GoogleVisionParser\\obj\\",
+      "outputPath": "C:\\Users\\Azariel\\Documents\\Visual Studio 2019\\Projects\\GoogleVisionParser\\GoogleVisionFoodProducts\\GoogleVisionParser\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -8,6 +8,17 @@ namespace GoogleVisionParser.Parser.Nutrionnal.Models
     {
         public class Vertex
         {
+            public Vertex()
+            {
+
+            }
+
+            public Vertex(int ax, int ay)
+            {
+                x = ax;
+                y = ay;
+            }
+
             public int x { get; set; }
             public int y { get; set; }
         }

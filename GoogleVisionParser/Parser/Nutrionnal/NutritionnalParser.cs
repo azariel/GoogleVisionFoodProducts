@@ -205,12 +205,41 @@ namespace GoogleVisionParser.Parser.Nutrionnal
 
             aRemainingData = _remainingTextAnnotations;
 
+            // get Box
+            int? _TopX = null;
+            int? _TopY = null;
+            int? _BottomX = null;
+            int? _BottomY = null;
+
+            foreach (Vertex item in aVendetta.SelectMany(sm => sm.boundingPoly.vertices))
+            {
+                if(_TopX == null || _TopX > item.x)
+                    _TopX = item.x;
+
+                if(_TopY == null || _TopY > item.y)
+                    _TopY = item.y;
+
+                if(_BottomX == null || _BottomX < item.x)
+                    _BottomX = item.x;
+
+                if(_BottomY == null || _BottomX < item.y)
+                    _BottomY = item.y;
+
+            }
+
             return new NutritionalFoodView
             {
                 Name = _Name,
                 TypeAmount = _TypeAmount,
                 Amount = _Amount,
-                Percentage = _PercConfirmed ? _Percentage : "?"
+                Percentage = _PercConfirmed ? _Percentage : "?",
+                Locations = new Vertex[]
+                {
+                    new Vertex(_TopX.Value, _TopY.Value),
+                    new Vertex(_BottomX.Value, _TopY.Value),
+                    new Vertex(_BottomX.Value, _BottomY.Value),
+                    new Vertex(_TopX.Value, _BottomY.Value)
+                }
             };
         }
 

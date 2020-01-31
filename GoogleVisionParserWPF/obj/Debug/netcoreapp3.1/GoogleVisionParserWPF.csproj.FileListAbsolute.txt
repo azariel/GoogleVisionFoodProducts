@@ -42,3 +42,25 @@ C:\Users\Azariel\Downloads\GoogleVisionFoodProducts\GoogleVisionFoodProducts\Goo
 C:\Users\Azariel\Downloads\GoogleVisionFoodProducts\GoogleVisionFoodProducts\GoogleVisionParserWPF\obj\Debug\netcoreapp3.1\GoogleVisionParserWPF.csproj.CopyComplete
 C:\Users\Azariel\Downloads\GoogleVisionFoodProducts\GoogleVisionFoodProducts\GoogleVisionParserWPF\obj\Debug\netcoreapp3.1\GoogleVisionParserWPF.dll
 C:\Users\Azariel\Downloads\GoogleVisionFoodProducts\GoogleVisionFoodProducts\GoogleVisionParserWPF\obj\Debug\netcoreapp3.1\GoogleVisionParserWPF.pdb
+C:\Users\Azariel\Documents\Visual Studio 2019\Projects\GoogleVisionParser\GoogleVisionFoodProducts\GoogleVisionParserWPF\bin\Debug\netcoreapp3.1\GoogleVisionParser.exe
+C:\Users\Azariel\Documents\Visual Studio 2019\Projects\GoogleVisionParser\GoogleVisionFoodProducts\GoogleVisionParserWPF\bin\Debug\netcoreapp3.1\GoogleVisionParserWPF.exe
+C:\Users\Azariel\Documents\Visual Studio 2019\Projects\GoogleVisionParser\GoogleVisionFoodProducts\GoogleVisionParserWPF\bin\Debug\netcoreapp3.1\GoogleVisionParserWPF.deps.json
+C:\Users\Azariel\Documents\Visual Studio 2019\Projects\GoogleVisionParser\GoogleVisionFoodProducts\GoogleVisionParserWPF\bin\Debug\netcoreapp3.1\GoogleVisionParserWPF.runtimeconfig.json
+C:\Users\Azariel\Documents\Visual Studio 2019\Projects\GoogleVisionParser\GoogleVisionFoodProducts\GoogleVisionParserWPF\bin\Debug\netcoreapp3.1\GoogleVisionParserWPF.runtimeconfig.dev.json
+C:\Users\Azariel\Documents\Visual Studio 2019\Projects\GoogleVisionParser\GoogleVisionFoodProducts\GoogleVisionParserWPF\bin\Debug\netcoreapp3.1\GoogleVisionParserWPF.dll
+C:\Users\Azariel\Documents\Visual Studio 2019\Projects\GoogleVisionParser\GoogleVisionFoodProducts\GoogleVisionParserWPF\bin\Debug\netcoreapp3.1\GoogleVisionParserWPF.pdb
+C:\Users\Azariel\Documents\Visual Studio 2019\Projects\GoogleVisionParser\GoogleVisionFoodProducts\GoogleVisionParserWPF\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Azariel\Documents\Visual Studio 2019\Projects\GoogleVisionParser\GoogleVisionFoodProducts\GoogleVisionParserWPF\bin\Debug\netcoreapp3.1\GoogleVisionParser.dll
+C:\Users\Azariel\Documents\Visual Studio 2019\Projects\GoogleVisionParser\GoogleVisionFoodProducts\GoogleVisionParserWPF\bin\Debug\netcoreapp3.1\GoogleVisionParser.pdb
+C:\Users\Azariel\Documents\Visual Studio 2019\Projects\GoogleVisionParser\GoogleVisionFoodProducts\GoogleVisionParserWPF\obj\Debug\netcoreapp3.1\GoogleVisionParserWPF.csprojAssemblyReference.cache
+C:\Users\Azariel\Documents\Visual Studio 2019\Projects\GoogleVisionParser\GoogleVisionFoodProducts\GoogleVisionParserWPF\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Azariel\Documents\Visual Studio 2019\Projects\GoogleVisionParser\GoogleVisionFoodProducts\GoogleVisionParserWPF\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Azariel\Documents\Visual Studio 2019\Projects\GoogleVisionParser\GoogleVisionFoodProducts\GoogleVisionParserWPF\obj\Debug\netcoreapp3.1\GoogleVisionParserWPF_MarkupCompile.cache
+C:\Users\Azariel\Documents\Visual Studio 2019\Projects\GoogleVisionParser\GoogleVisionFoodProducts\GoogleVisionParserWPF\obj\Debug\netcoreapp3.1\GoogleVisionParserWPF_MarkupCompile.lref
+C:\Users\Azariel\Documents\Visual Studio 2019\Projects\GoogleVisionParser\GoogleVisionFoodProducts\GoogleVisionParserWPF\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Azariel\Documents\Visual Studio 2019\Projects\GoogleVisionParser\GoogleVisionFoodProducts\GoogleVisionParserWPF\obj\Debug\netcoreapp3.1\GoogleVisionParserWPF.g.resources
+C:\Users\Azariel\Documents\Visual Studio 2019\Projects\GoogleVisionParser\GoogleVisionFoodProducts\GoogleVisionParserWPF\obj\Debug\netcoreapp3.1\GoogleVisionParserWPF.AssemblyInfoInputs.cache
+C:\Users\Azariel\Documents\Visual Studio 2019\Projects\GoogleVisionParser\GoogleVisionFoodProducts\GoogleVisionParserWPF\obj\Debug\netcoreapp3.1\GoogleVisionParserWPF.AssemblyInfo.cs
+C:\Users\Azariel\Documents\Visual Studio 2019\Projects\GoogleVisionParser\GoogleVisionFoodProducts\GoogleVisionParserWPF\obj\Debug\netcoreapp3.1\GoogleVisionParserWPF.csproj.CopyComplete
+C:\Users\Azariel\Documents\Visual Studio 2019\Projects\GoogleVisionParser\GoogleVisionFoodProducts\GoogleVisionParserWPF\obj\Debug\netcoreapp3.1\GoogleVisionParserWPF.dll
+C:\Users\Azariel\Documents\Visual Studio 2019\Projects\GoogleVisionParser\GoogleVisionFoodProducts\GoogleVisionParserWPF\obj\Debug\netcoreapp3.1\GoogleVisionParserWPF.pdb

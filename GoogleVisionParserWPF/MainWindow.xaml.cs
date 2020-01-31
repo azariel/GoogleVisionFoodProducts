@@ -32,7 +32,7 @@ namespace GoogleVisionParserWPF
 
         private SolidColorBrush GetColorFromNutritionalFoodView(NutritionalFoodView _v)
         {
-            Color _Color =Color.FromArgb(128, 0, 128, 0);
+            Color _Color = Color.FromArgb(128, 0, 128, 0);
 
             if (string.IsNullOrEmpty(_v?.Percentage) || _v.Percentage == "?")
                 _Color = Color.FromArgb(128, 128, 128, 0);
@@ -46,8 +46,6 @@ namespace GoogleVisionParserWPF
             if (_v == null)
                 _Color = Color.FromArgb(128, 255, 0, 0);
 
-            
-
             return new SolidColorBrush(_Color);
         }
 
@@ -56,7 +54,6 @@ namespace GoogleVisionParserWPF
             string _RawDataFromFile = File.ReadAllText("DATA.txt");
             NutritionnalParser _Parser = new NutritionnalParser();
             var _Result = _Parser.Parse(_RawDataFromFile, out var _Report);
-
 
             var gridView = new GridView();
             gridView.Columns.Add(new GridViewColumn() { Header = "Name", DisplayMemberBinding = new Binding("Name") });
@@ -68,7 +65,7 @@ namespace GoogleVisionParserWPF
             List<NutritionalFoodView> _Unknown = new List<NutritionalFoodView>();
             foreach (var _v in _Result)
             {
-                    this.listView.Items.Add(new ListViewItem() { Content = _v, Background = GetColorFromNutritionalFoodView(_v) });
+                this.listView.Items.Add(new ListViewItem() { Content = _v, Background = GetColorFromNutritionalFoodView(_v) });
             }
         }
     }

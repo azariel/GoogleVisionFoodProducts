@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Azariel\\Downloads\\GoogleVisionFoodProducts\\GoogleVisionFoodProducts\\GoogleVisionParserWPF\\GoogleVisionParserWPF.csproj": {}
+    "C:\\Users\\Azariel\\Documents\\Visual Studio 2019\\Projects\\GoogleVisionParser\\GoogleVisionFoodProducts\\GoogleVisionParserWPF\\GoogleVisionParserWPF.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Azariel\\Downloads\\GoogleVisionFoodProducts\\GoogleVisionFoodProducts\\GoogleVisionParserWPF\\GoogleVisionParserWPF.csproj": {
+    "C:\\Users\\Azariel\\Documents\\Visual Studio 2019\\Projects\\GoogleVisionParser\\GoogleVisionFoodProducts\\GoogleVisionParserWPF\\GoogleVisionParserWPF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Azariel\\Downloads\\GoogleVisionFoodProducts\\GoogleVisionFoodProducts\\GoogleVisionParserWPF\\GoogleVisionParserWPF.csproj",
+        "projectUniqueName": "C:\\Users\\Azariel\\Documents\\Visual Studio 2019\\Projects\\GoogleVisionParser\\GoogleVisionFoodProducts\\GoogleVisionParserWPF\\GoogleVisionParserWPF.csproj",
         "projectName": "GoogleVisionParserWPF",
-        "projectPath": "C:\\Users\\Azariel\\Downloads\\GoogleVisionFoodProducts\\GoogleVisionFoodProducts\\GoogleVisionParserWPF\\GoogleVisionParserWPF.csproj",
+        "projectPath": "C:\\Users\\Azariel\\Documents\\Visual Studio 2019\\Projects\\GoogleVisionParser\\GoogleVisionFoodProducts\\GoogleVisionParserWPF\\GoogleVisionParserWPF.csproj",
         "packagesPath": "C:\\Users\\Azariel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Azariel\\Downloads\\GoogleVisionFoodProducts\\GoogleVisionFoodProducts\\GoogleVisionParserWPF\\obj\\",
+        "outputPath": "C:\\Users\\Azariel\\Documents\\Visual Studio 2019\\Projects\\GoogleVisionParser\\GoogleVisionFoodProducts\\GoogleVisionParserWPF\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Azariel\\Downloads\\GoogleVisionFoodProducts\\GoogleVisionFoodProducts\\GoogleVisionParser\\GoogleVisionParser.csproj": {
-                "projectPath": "C:\\Users\\Azariel\\Downloads\\GoogleVisionFoodProducts\\GoogleVisionFoodProducts\\GoogleVisionParser\\GoogleVisionParser.csproj"
+              "C:\\Users\\Azariel\\Documents\\Visual Studio 2019\\Projects\\GoogleVisionParser\\GoogleVisionFoodProducts\\GoogleVisionParser\\GoogleVisionParser.csproj": {
+                "projectPath": "C:\\Users\\Azariel\\Documents\\Visual Studio 2019\\Projects\\GoogleVisionParser\\GoogleVisionFoodProducts\\GoogleVisionParser\\GoogleVisionParser.csproj"
               }
             }
           }
@@ -66,14 +66,14 @@
         }
       }
     },
-    "C:\\Users\\Azariel\\Downloads\\GoogleVisionFoodProducts\\GoogleVisionFoodProducts\\GoogleVisionParser\\GoogleVisionParser.csproj": {
+    "C:\\Users\\Azariel\\Documents\\Visual Studio 2019\\Projects\\GoogleVisionParser\\GoogleVisionFoodProducts\\GoogleVisionParser\\GoogleVisionParser.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Azariel\\Downloads\\GoogleVisionFoodProducts\\GoogleVisionFoodProducts\\GoogleVisionParser\\GoogleVisionParser.csproj",
+        "projectUniqueName": "C:\\Users\\Azariel\\Documents\\Visual Studio 2019\\Projects\\GoogleVisionParser\\GoogleVisionFoodProducts\\GoogleVisionParser\\GoogleVisionParser.csproj",
         "projectName": "GoogleVisionParser",
-        "projectPath": "C:\\Users\\Azariel\\Downloads\\GoogleVisionFoodProducts\\GoogleVisionFoodProducts\\GoogleVisionParser\\GoogleVisionParser.csproj",
+        "projectPath": "C:\\Users\\Azariel\\Documents\\Visual Studio 2019\\Projects\\GoogleVisionParser\\GoogleVisionFoodProducts\\GoogleVisionParser\\GoogleVisionParser.csproj",
         "packagesPath": "C:\\Users\\Azariel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Azariel\\Downloads\\GoogleVisionFoodProducts\\GoogleVisionFoodProducts\\GoogleVisionParser\\obj\\",
+        "outputPath": "C:\\Users\\Azariel\\Documents\\Visual Studio 2019\\Projects\\GoogleVisionParser\\GoogleVisionFoodProducts\\GoogleVisionParser\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
