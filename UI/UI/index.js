@@ -4,7 +4,7 @@ function LoadImage() {
     let context = canvas.getContext('2d');
 
     let image = new Image();
-    image.src= './ImageTest.jpg';
+    image.src= './ImageTest.png';
 
     image.onload = function() {
         canvas.width = image.width;
@@ -14,7 +14,7 @@ function LoadImage() {
 }
 
 async function LoadBigJSON() {
-    const response = await fetch('./Data.json');
+    const response = await fetch('./new 2.json');
     const json = await response.json();
     return json.responses[0].textAnnotations;
 }
@@ -24,7 +24,7 @@ function ExtractBigHeaders (json){
 }
 
 async function LoadJSON() {
-    const response = await fetch('./SimpleData.json');
+    const response = await fetch('./Json.json');
     const json = await response.json();
     return json;
 }
@@ -50,7 +50,7 @@ async function FillTable2(){
     // Apprend headers.
     for (let i = 0; i < headers.length; i++) {
         let th = document.createElement("th");
-        if (headers[i] === "boundingPoly")
+        if (headers[i] === "Locations")
             continue;
         th.innerHTML = headers[i];
         myTable.appendChild(th);
@@ -64,7 +64,7 @@ async function FillTable2(){
             let canvas = document.getElementById("myCanvas");
             let context = canvas.getContext('2d');
 
-            let vertices = json[i].boundingPoly.vertices;
+            let vertices = json[i].Locations;
 
             context.moveTo(vertices[0].x, vertices[0].y);
             context.lineTo(vertices[1].x, vertices[1].y);
